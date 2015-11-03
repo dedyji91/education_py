@@ -1,7 +1,15 @@
-__author__ = 'yovla'
-s = 'qwertyuiopasdg'
-print(s[0:9])
-print(s[5:9])
-print(s[2:13:3])
+# coding: utf-8
+str1 = 'qwertyuiopasdf'
+str1 = str1[0:9]
+str2 = str1[4:7]
+str3 = str1[0:14:3]
+print(str1,str2,str3)
 
+text1 = ('Li874nux — 874общее назв874ание Unix-подобных операционных систем, основанных на одноимённом ядре. Ядро Linux создаётся и распрост874раняется в соответствии с моделью разр874аботки свободного и открытого прог874раммного обеспечения.')
+vs = text1.replace('874','')
+print(vs)
+
+text2 = 'п2р3и0в4е3т'
+vs2 = text2[0:12:2]
+print(vs2)
 
