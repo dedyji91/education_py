@@ -29,7 +29,7 @@
 #Sample Input 3:
 #7
 #9
-32
+#2
 #Sample Output 3:
 #Недосып
 
