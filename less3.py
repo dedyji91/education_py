@@ -33,6 +33,7 @@
 #Sample Output 3:
 #Недосып
 
+
 a = int(input('Enter A: '))
 b = int(input('Enter B: '))
 h = int(input('Enter H: '))
@@ -42,3 +43,5 @@ elif a <= b < h:
     print('Пересып')
 elif a <= b > h:
     print('Недосып')
+
+
